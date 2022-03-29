@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Memória</title>
+</head>
+<body class="body">
+    <div class="container">
+      <h1 class="titulo">Jogo da Memória</h1>
+      <div id="memoria">
+        <div class="row"><div class="col">
+          <p id="timer">00:00</p>
+        </div></div>
+        <div id="imagens">
+          <div class="row">
+            <div class="col-3">
+              <img  data-valor="0" id="i0" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="1" id="i1" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="2" id="i2" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="3" id="i3" crossorigin="anonymous">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img data-valor="4" id="i4" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="5" id="i5" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="6" id="i6" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="7" id="i7" crossorigin="anonymous">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img data-valor="8" id="i8" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="9" id="i9" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="10" id="i10" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="11" id="i11" crossorigin="anonymous">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img data-valor="12" id="i12" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="13" id="i13" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="14" id="i14" crossorigin="anonymous">
+            </div>
+            <div class="col-3">
+              <img data-valor="15" id="i15" crossorigin="anonymous">
+            </div>
+          </div>
+        </div>
+        <div id="rodape" class="row">
+          <div class="col">
+            <button id="btnInicio" type="button" class="btn btn-danger btn-primary btn-lg">Iniciar Jogo
+            </button>
+          </div>
+        </div>
+      </div>          
+    </div>
+</body>
+<script src="comandos.js"></script>
+</html>
