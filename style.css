@@ -1,0 +1,33 @@
+body {
+  background-color: #F2CED1;
+}
+
+
+#memoria {
+  max-width: 35rem;
+  padding-top: 30px;
+  
+}
+
+#memoria #timer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 10px;
+
+}
+
+#memoria img {
+  margin-bottom: 20px;
+  border: thin solid black;
+  width: 100px ;
+  height: 100px ;
+  border-radius: 10px;
+}
+
+#memoria #rodape {
+  text-align: center;  
+}
+
