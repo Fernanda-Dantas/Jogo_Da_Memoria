@@ -15,10 +15,10 @@ Para reiniciar o jogo é preciso atualizar a página (basta pressionar F5 no tec
 
 # Tenologias utilizadas
 
-* HTML
-* CSS
-* JavaScript
-* Bootstrap
+* HTML;
+* CSS;
+* JavaScript;
+* Bootstrap.
 
 # O que aprendi
 
