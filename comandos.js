@@ -24,6 +24,7 @@ elemImagens.forEach(
 
 
 document.querySelector('#btnInicio').onclick = iniciaJogo
+
 };
 
 // ----------------------
